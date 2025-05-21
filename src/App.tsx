@@ -11,6 +11,7 @@ import { useInView } from "react-intersection-observer";
 import { useAnimation } from "framer-motion";
 import type { Project } from "@/types/project";
 import { SocialIcons } from "@/components/SocialLinks";
+import { Hobbies } from "./components/Hobbies";
 
 export default function App() {
   const [activeProject, setActiveProject] = useState<Project | null>(null);
@@ -40,6 +41,7 @@ export default function App() {
         <ProjectModal project={activeProject} onClose={() => setActiveProject(null)} />
         
         <CVSection />
+        <Hobbies />
         <ContactForm submitted={submitted} setSubmitted={setSubmitted} />
       </main>
       <SocialIcons />
