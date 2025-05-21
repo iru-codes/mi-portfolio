@@ -20,6 +20,6 @@ export const projects: Project[] = [
     description: "Este proyecto se encuentra en construcción.",
     demoUrl: "#",
     codeUrl: "#",
-    image: ""
+    image: "/proyectos/en-construccion.webp"
   }
 ];

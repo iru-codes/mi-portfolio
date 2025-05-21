@@ -46,6 +46,7 @@ export default function App() {
         </div>
         <Techs />
         <ContactForm submitted={submitted} setSubmitted={setSubmitted} />
+
       </main>
       <SocialIcons />
       <p className="flex justify-center content-center items-end gap-10 h-1 p-5 pt-2 font-bold bg-not-blue dark:bg-background-dark text-bg-light dark:text-bg-primary comic-neue-regular">Iru Codes - 2025</p>
