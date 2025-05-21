@@ -39,9 +39,10 @@ export default function App() {
           onSelectProject={project => setActiveProject(project)}
         />
         <ProjectModal project={activeProject} onClose={() => setActiveProject(null)} />
-        
-        <CVSection />
-        <Hobbies />
+        <div className="flex flex-col lg:flex-row justify-between items-start gap-10 mt-10">
+          <CVSection />
+          <Hobbies />
+        </div>
         <ContactForm submitted={submitted} setSubmitted={setSubmitted} />
       </main>
       <SocialIcons />

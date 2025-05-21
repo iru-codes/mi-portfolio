@@ -112,7 +112,7 @@
 .dark .dark\:border-bg-light { border-color: var(--color-bg-light); }
 .dark .dark\:border-primary { border-color: var(--color-primary); }
 .dark .dark\:border-secondary { border-color: var(--color-secondary); }
-.dark .dark\:border-notblue { border-color: var(--color-not-blue); }
+.dark .dark\:border-not-blue { border-color: var(--color-not-blue); }
 .dark .dark\:border-deep-violet { border-color: var(--color-deep-violet); }
 
 

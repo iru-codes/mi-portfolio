@@ -15,7 +15,7 @@ export function HobbyCard({ title, description, image, link }: HobbyCardProps) {
         rel="noopener noreferrer"
         whileHover={{ scale: 1.02 }}
         whileTap={{ scale: 0.98 }}
-        className="flex items-center gap-4 bg-background-light dark:bg-background-dark border border-accent rounded-2xl p-4 transition-shadow hover:shadow-lg"
+        className="flex items-center gap-4 bg-not-blue dark:bg-background-dark border border-bg-light dark:border-not-blue rounded-2xl p-4 transition-shadow hover:shadow-lg"
         >
         <img
             src={image}
@@ -23,8 +23,8 @@ export function HobbyCard({ title, description, image, link }: HobbyCardProps) {
             className="w-32 h-32 object-cover rounded-xl"
         />
         <div className="text-left">
-            <h3 className="text-xl font-semibold text-primary dark:text-accent mb-2">{title}</h3>
-            <p className="text-sm text-zinc-600 dark:text-zinc-300 max-w-sm">{description}</p>
+            <h3 className="text-xl font-semibold text-bg-light dark:text-accent mb-2">{title}</h3>
+            <p className="text-sm text-zinc-300 max-w-sm">{description}</p>
         </div>
         </motion.a>
     );
