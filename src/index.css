@@ -66,6 +66,7 @@
 .border-secondary { border-color: var(--color-secondary); }
 .border-accent { border-color: var(--color-accent); }
 .border-accent-2 { border-color: var(--color-accent-2); }
+.border-bg-light { border-color: var(--color-bg-light); }
 
 /* Light Hover */
 .hover\:bg-secondary:hover { background-color: var(--color-secondary); }
