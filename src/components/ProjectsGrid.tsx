@@ -24,7 +24,17 @@ export function ProjectGrid({ projects, projectRef, controls, onSelectProject }:
             onClick={() => onSelectProject(project)}
             className="text-left rounded-2xl border-2 border-accent-2 text-bg-light dark:border-primary p-4 m-4 shadow-sm bg-primary dark:bg-deep-violet transition hover:scale-[1.02] hover:shadow-md"
           >
-            <div className="h-40 bg-zinc-100 dark:bg-background-dark mb-4 rounded-lg bg-primary"></div>
+            <div className="h-40 bg-zinc-100 dark:bg-background-dark mb-4 bg-primary rounded-2xl">
+              {project.image ? (
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-full object-cover rounded-2xl"
+                />
+              ) : (
+                <span className="text-sm text-zinc-400">Sin imagen</span>
+              )}
+            </div>
             <h3 className="text-3xl font-semibold mb-2 comic-neue-bold">{project.title}</h3>
             <p className="text-sm text-bg-ligt dark:text-zinc-300 mb-3 didact-gothic-regular">
               {project.description}

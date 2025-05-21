@@ -2,21 +2,24 @@ import type { Project } from "@/types/project";
 
 export const projects: Project[] = [
   {
-    title: "Proyecto 1",
-    description: "Descripción corta del proyecto 1.",
-    demoUrl: "https://demo1.com",
-    codeUrl: "https://github.com/tuusuario/proyecto1"
+    title: "Landing Page Modelo",
+    description: "Una landing page de prueba que usa el servicio de backend de Firebase para el hosting.",
+    demoUrl: "https://landing-page-modelo.web.app/",
+    codeUrl: "https://github.com/iru-codes/landing-modelo",
+    image: "/proyectos/tu-landing-page.webp"
   },
   {
-    title: "Proyecto 2",
-    description: "Descripción corta del proyecto 2.",
-    demoUrl: "https://demo2.com",
-    codeUrl: "https://github.com/tuusuario/proyecto2"
+    title: "Rpg Diceroll App",
+    description: "La primera aplicación web que desarrollé, usa el servicio de backend de Netlify para el hosting.",
+    demoUrl: "https://rpg-diceroll-app.netlify.app/",
+    codeUrl: "https://github.com/iru-codes/dice-app-react",
+    image: "/proyectos/rpg-diceroll-app.webp"
   },
   {
-    title: "Proyecto 3",
-    description: "Descripción corta del proyecto 3.",
-    demoUrl: "https://demo3.com",
-    codeUrl: "https://github.com/tuusuario/proyecto3"
+    title: "Blog de Escritura",
+    description: "Este proyecto se encuentra en construcción.",
+    demoUrl: "#",
+    codeUrl: "#",
+    image: ""
   }
 ];

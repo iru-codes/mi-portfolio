@@ -3,4 +3,5 @@ export interface Project {
   description: string;
   demoUrl: string;
   codeUrl: string;
+  image?: string;
 }
