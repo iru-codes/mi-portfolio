@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { SkillBar } from "./SkillBar";
 
 export function CVSection() {
   return (
@@ -6,6 +7,13 @@ export function CVSection() {
       <h2 className="text-7xl font-bold text-center mb-10 dongle-regular">Aptitudes</h2>
       <div className="flex flex-col items-center gap-4">
         {/* <img src="/public/grafico.svg" alt="Conocimientos" /> */}
+        <SkillBar label="Aplicaciones Web" value={4} />
+        <SkillBar label="Landing Pages" value={6} />
+        <SkillBar label="Sitios Web" value={3} />
+        <SkillBar label="Diseño" value={7} />
+        <SkillBar label="Inglés" value={7} />
+        <SkillBar label="SEO" value={6} />
+        
         <div>
           <h2 className="text-6xl font-bold text-center text-accent-2 dark:text-bg-light dongle-regular">Tecnologías</h2>
           <div className="p-5 flex flex-wrap justify-around gap-4 bg-not-blue dark:bg-background-dark rounded-4xl border-2 border-primary">
