@@ -12,6 +12,7 @@ import { useAnimation } from "framer-motion";
 import type { Project } from "@/types/project";
 import { SocialIcons } from "@/components/SocialLinks";
 import { Hobbies } from "./components/Hobbies";
+import { Techs } from "./components/Techs";
 
 export default function App() {
   const [activeProject, setActiveProject] = useState<Project | null>(null);
@@ -39,10 +40,11 @@ export default function App() {
           onSelectProject={project => setActiveProject(project)}
         />
         <ProjectModal project={activeProject} onClose={() => setActiveProject(null)} />
-        <div className="flex flex-col lg:flex-row justify-between items-start gap-10 mt-10">
+        <div className="flex flex-col lg:flex-row justify-between items-start gap-6 m-10">
           <CVSection />
           <Hobbies />
         </div>
+        <Techs />
         <ContactForm submitted={submitted} setSubmitted={setSubmitted} />
       </main>
       <SocialIcons />

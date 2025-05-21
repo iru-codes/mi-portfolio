@@ -17,7 +17,7 @@ export function SkillBar({ label, value }: SkillBarProps) {
     }
 
     return (
-        <div ref={ref} className="w-full max-w-xl mb-6">
+        <div ref={ref} className="w-full max-w-xl mb-2">
         <div className="flex justify-between mb-1">
             <span className="text-sm font-medium text-not-blue dark:text-zinc-300">{label}</span>
             <span className="text-sm font-medium text-not-blue dark:text-zinc-400">{value}/10</span>

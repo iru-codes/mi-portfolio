@@ -37,6 +37,7 @@
 .bg-zinc-100 { background-color: var(--color-zinc-100); }
 .bg-zinc-700 { background-color: var(--color-zinc-700); }
 
+
 /* Light Text */
 .text-zinc-900 { color: var(--color-zinc-900); }
 .text-zinc-100 { color: var(--color-zinc-100); }
@@ -92,7 +93,7 @@
 .dark .dark\:bg-background-light { background-color: var(--color-bg-light); }
 .dark .dark\:bg-not-blue { background-color: var(--color-not-blue); }
 .dark .dark\:bg-deep-violet { background-color: var(--color-deep-violet); }
-
+.dark .dark\:bg-zinc-900 { background-color: var(--color-zinc-900); }
 
 /* Dark Texts */
 .dark .dark\:text-primary { color: var(--color-primary); }
