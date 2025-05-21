@@ -40,7 +40,7 @@ export default function App() {
           onSelectProject={project => setActiveProject(project)}
         />
         <ProjectModal project={activeProject} onClose={() => setActiveProject(null)} />
-        <div className="flex flex-col lg:flex-row justify-between items-start gap-6 m-10">
+        <div className="flex flex-col lg:flex-row justify-center items-start gap-4 m-10">
           <CVSection />
           <Hobbies />
         </div>

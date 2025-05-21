@@ -2,7 +2,7 @@ import { SkillBar } from "./SkillBar";
 
 export function CVSection() {
   return (
-    <section className="py-12 w-[50%]">
+    <section className="py-7 w-[60%]">
       <div className="">
         <h2 className="text-7xl font-bold text-center mb-2 dongle-regular">Aptitudes</h2>
         <div className="flex flex-col items-center gap-3">
