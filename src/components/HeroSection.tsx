@@ -11,7 +11,7 @@ export function HeroSection() {
       <div className="block items-center justify-center gap-6">
         <div className="flex flex-row-reverse justify-center items-center gap-6">
           <img
-            src="/avatar-placeholder.png"
+            src="/perfil.webp"
             alt="Irupé Alvarez"
             className="w-64 h-64 rounded-full object-cover border-4 border-primary dark:border-accent"
           />

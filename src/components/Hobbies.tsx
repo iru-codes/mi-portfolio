@@ -9,7 +9,7 @@ const hobbies = [
     },
     {
         title: "Escritura Creativa",
-        description: "Este blog todavía está en construcción...",
+        description: "Este blog todavía está en construcción... Pronto estará disponible para ser visitado.",
         image: "/hobbies/quill.png",
         link: "#",
     },
