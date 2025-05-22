@@ -23,7 +23,8 @@ export function Navigation() {
 
             <ul
                 className={cn(
-                    "lg:flex gap-6 text-sm font-medium hidden",
+                    "gap-6 text-sm font-medium lg:flex lg:items-center lg:static",
+                    !open && "hidden",
                     open && "absolute top-full left-0 bg-background-light dark:bg-background-dark shadow-md rounded-md w-48 p-4 z-40 flex flex-col"
                 )}
             >
@@ -31,7 +32,7 @@ export function Navigation() {
                     <li key={link.name}>
                         <a
                             href={link.href}
-                            className="block py-2 px-4 hover:text-primary dark:hover:text-accent transition-colors"
+                            className="block py-2 px-4 hover:text-primary dark:hover:text-accent transition-colors didact-gothic-regular text-2xl"
                             onClick={() => setOpen(false)}
                         >
                             {link.name}
