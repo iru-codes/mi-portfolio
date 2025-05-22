@@ -17,7 +17,7 @@ export function CVSection() {
         <a
           href="/IrupéAlvarez-CV.pdf"
           download
-          className="w-half max-w-xs text-center px-6 py-3 font-bold rounded-2xl bg-primary text-white hover:bg-deep-violet hover:text-accent-2 dark:hover:bg-background-light dark:hover:text-deep-violet didact-gothic-regular"
+          className="w-half max-w-xs text-center px-6 py-3 rounded-2xl bg-primary text-xl md:text-2xl text-white hover:bg-deep-violet hover:text-accent-2 dark:hover:bg-background-light dark:hover:text-deep-violet comic-neue-bold"
         >
           Descargar CV (PDF)
         </a>

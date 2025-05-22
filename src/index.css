@@ -10,48 +10,21 @@
   --color-bg-dark: #32174D;
   --color-not-blue: #010D36;
   --color-deep-violet: #170825;
-
-
-  --color-zinc-100: #f4f4f5;
-  --color-zinc-200: #e4e4e7;
   --color-zinc-300: #d4d4d8;
-
   --color-zinc-400: #a1a1aa;
-  --color-zinc-500: #71717a;
-  --color-zinc-600: #52525b;
-
   --color-zinc-700: #3f3f46;
-  --color-zinc-800: #27272a;
-  --color-zinc-900: #18181b;
 }
 
 /* Light Backgrounds */
 .bg-background-light { background-color: var(--color-bg-light); }
 .bg-background-dark { background-color: var(--color-bg-dark); }
 .bg-primary { background-color: var(--color-primary); }
-.bg-secondary { background-color: var(--color-secondary); }
 .bg-not-blue { background-color: var(--color-not-blue); }
-.bg-deep-violet { background-color: var(--color-deep-violet); }
 .bg-accent-2 { background-color: var(--color-accent-2); }
 .bg-white { background-color: white; }
-.bg-zinc-800 { background-color: var(--color-zinc-800); }
-.bg-zinc-100 { background-color: var(--color-zinc-100); }
-.bg-zinc-700 { background-color: var(--color-zinc-700); }
 
 
 /* Light Text */
-.text-zinc-900 { color: var(--color-zinc-900); }
-.text-zinc-100 { color: var(--color-zinc-100); }
-.text-zinc-800 { color: var(--color-zinc-800); }
-.text-zinc-600 { color: var(--color-zinc-600); }
-.text-zinc-300 { color: var(--color-zinc-300); }
-.text-zinc-500 { color: var(--color-zinc-500); }
-.text-zinc-400 { color: var(--color-zinc-400); }
-
-
-.text-primary { color: var(--color-primary); }
-.text-secondary { color: var(--color-secondary); }
-.text-accent { color: var(--color-accent); }
 .text-accent-2 { color: var(--color-accent-2); }
 .text-bg-light { color: var(--color-bg-light); }
 .text-bg-dark { color: var(--color-bg-dark); }
@@ -59,76 +32,44 @@
 .text-deep-violet { color: var(--color-deep-violet); }
 
 /* Light Borders */
-.border-zinc-200 { border-color: var(--color-zinc-200); }
-.border-zinc-300 { border-color: var(--color-zinc-300); }
-.border-zinc-700 { border-color: var(--color-zinc-700); }
-
-
 .border-primary { border-color: var(--color-primary); }
-.border-secondary { border-color: var(--color-secondary); }
-.border-accent { border-color: var(--color-accent); }
 .border-accent-2 { border-color: var(--color-accent-2); }
 .border-bg-light { border-color: var(--color-bg-light); }
 
 /* Light Hover */
-.hover\:bg-secondary:hover { background-color: var(--color-secondary); }
-.hover\:bg-zinc-100:hover { background-color: var(--color-zinc-100); }
-.hover\:bg-zinc-700:hover { background-color: var(--color-zinc-700); }
-.hover\:text-primary:hover { color: var(--color-primary); }
-.hover\:text-secondary:hover { color: var(--color-secondary); }
-.hover\:text-accent:hover { color: var(--color-accent); }
 .hover\:text-accent-2:hover { color: var(--color-accent-2); }
-.hover\:bg-deep-violet:hover { background-color: var(--color-deep-violet); }
-
-
-.dark .dark\:hover\:text-deep-violet:hover {color: var(--color-deep-violet); }
-.dark .dark\:hover\:text-accent-2:hover {color: var(--color-accent-2); }
-.dark .dark\:hover\:text-accent:hover {color: var(--color-accent); }
-
-.dark .dark\:hover\:text-primary:hover { color: var(--color-primary); }
 
 /* Dark Backgrounds */
 .dark .dark\:bg-background-dark { background-color: var(--color-bg-dark); }
-.dark .dark\:bg-secondary { background-color: var(--color-secondary); }
-.dark .dark\:bg-primary { background-color: var(--color-primary); }
-.dark .dark\:bg-background-light { background-color: var(--color-bg-light); }
 .dark .dark\:bg-not-blue { background-color: var(--color-not-blue); }
 .dark .dark\:bg-deep-violet { background-color: var(--color-deep-violet); }
-.dark .dark\:bg-zinc-900 { background-color: var(--color-zinc-900); }
 .dark .dark\:bg-accent { background-color: var(--color-accent); }
+
 /* Dark Texts */
 .dark .dark\:text-primary { color: var(--color-primary); }
-.dark .dark\:text-secondary { color: var(--color-secondary); }
 .dark .dark\:text-not-blue { color: var(--color-not-blue); }
 .dark .dark\:text-deep-violet { color: var(--color-deep-violet); }
 .dark .dark\:text-accent { color: var(--color-accent); }
 .dark .dark\:text-bg-light { color: var(--color-bg-light); }
 
-.dark .dark\:text-zinc-100 { color: var(--color-zinc-100); }
-.dark .dark\:text-zinc-300 { color: var(--color-zinc-300); }
-.dark .dark\:text-zinc-400 { color: var(--color-zinc-400); }
+.dark .dark\:text-zinc-300 { color: var(--color-zinc-300); } /*SkillsBar*/
+.dark .dark\:text-zinc-400 { color: var(--color-zinc-400); } /*SkillsBar*/
+
+/*Dark Texts Hover*/
+.dark .dark\:hover\:text-deep-violet:hover {color: var(--color-deep-violet); }
+.dark .dark\:hover\:text-accent:hover {color: var(--color-accent); }
+.dark .dark\:hover\:text-primary:hover { color: var(--color-primary); }
 
 /*Dark Border*/
-.dark .dark\:border-zinc-700 { border-color: var(--color-zinc-700); }
-
 .dark .dark\:border-accent { border-color: var(--color-accent); }
 .dark .dark\:border-bg-light { border-color: var(--color-bg-light); }
 .dark .dark\:border-primary { border-color: var(--color-primary); }
-.dark .dark\:border-secondary { border-color: var(--color-secondary); }
-.dark .dark\:border-not-blue { border-color: var(--color-not-blue); }
 .dark .dark\:border-deep-violet { border-color: var(--color-deep-violet); }
-
-
-.dark .dark\:bg-zinc-800 { background-color: var(--color-zinc-800); }
-.dark .dark\:bg-zinc-700 { background-color: var(--color-zinc-700); }
+.dark .dark\:bg-zinc-700 { background-color: var(--color-zinc-700); } /*SkillsBar*/
 
 /* Dark Hover */
-.dark .dark\:hover\:bg-zinc-700:hover { background-color: var(--color-zinc-700); }
 .dark .dark\:hover\:bg-accent:hover { background-color: var(--color-accent); }
 .dark .dark\:hover\:bg-primary:hover { background-color: var(--color-primary); }
-.dark .dark\:hover\:bg-secondary:hover { background-color: var(--color-secondary); }
-.dark .dark\:hover\:deep-violet:hover { background-color: var(--color-deep-violet); }
-.dark .dark\:hover\:bg-not-blue { background-color: var(--color-not-blue); }
 .dark .dark\:hover\:bg-background-light:hover { background-color: var(--color-bg-light); }
 
 /*Fuentes*/
@@ -167,7 +108,7 @@
   font-weight: 700;
   font-style: normal;
 }
-
+/* 
 .comic-neue-light-italic {
   font-family: "Comic Neue", cursive;
   font-weight: 300;
@@ -184,4 +125,4 @@
   font-family: "Comic Neue", cursive;
   font-weight: 700;
   font-style: italic;
-}
+} */

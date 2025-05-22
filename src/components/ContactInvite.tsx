@@ -16,7 +16,7 @@ export function ContactInvite() {
             <motion.img 
             src="/love-message.svg" 
             alt="Mensaje" 
-            className="w-40 md:w-60 z-1 -rotate-30 cursor-pointer rotar-x-15 -rotar-y-30"
+            className="w-40 md:w-60 z-1 -rotate-30 rotar-x-15 -rotar-y-30"
             ref={ref}
             whileHover={{ scale: 1.2 }} 
             whileTap={{ scale: 0.8 }}

@@ -29,7 +29,7 @@ export function Techs() {
 
             <div>
                 <h2 className=" text-6xl font-bold text-center text-deep-violet dark:text-bg-light dongle-regular">Herramientas</h2>
-                <div className="p-4 flex flex-wrap justify-around gap-4 bg-not-blue dark:bg-background-dark rounded-4xl border-2 border-accent-2 dark:border-primary">
+                <div className="p-4 flex flex-wrap justify-around gap-4 bg-not-blue dark:bg-background-dark rounded-4xl border-2 border-primary dark:border-primary">
                 {[
                     { src: "./herramientas/Trello.svg", alt: "Trello" },
                     { src: "./herramientas/git.svg", alt: "Git" },

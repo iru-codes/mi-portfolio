@@ -25,7 +25,7 @@ export function Navigation() {
                 className={cn(
                     "gap-6 text-sm font-medium lg:flex lg:items-center lg:static",
                     !open && "hidden",
-                    open && "absolute top-full left-0 bg-background-light dark:bg-background-dark shadow-md rounded-md w-48 p-4 z-40 flex flex-col"
+                    open && "absolute top-full left-0 bg-primary dark:bg-background-dark shadow-md rounded-md w-48 p-4 z-40 flex flex-col"
                 )}
             >
                 {navLinks.map((link) => (
