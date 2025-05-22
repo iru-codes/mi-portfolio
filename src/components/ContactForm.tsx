@@ -5,7 +5,7 @@ interface ContactFormProps {
 
 export function ContactForm({ submitted, setSubmitted }: ContactFormProps) {
   return (
-    <section className="py-16">
+    <section id="contact" className="py-16">
       <h2 className="text-6xl font-bold text-center mb-10 dongle-regular">Contacto</h2>
       {submitted ? (
         <p className="text-center text-accent text-lg">¡Gracias por tu mensaje!</p>

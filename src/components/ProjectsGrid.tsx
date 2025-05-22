@@ -12,7 +12,7 @@ interface ProjectGridProps {
 
 export function ProjectGrid({ projects, projectRef, controls, onSelectProject }: ProjectGridProps) {
   return (
-    <section className="py-9 bg-not-blue dark:bg-background-dark rounded-2xl p-[1%]" ref={projectRef}>
+    <section id="projects" className="py-9 bg-not-blue dark:bg-background-dark rounded-2xl p-[1%]" ref={projectRef}>
       <h2 className="text-6xl font-bold text-center mb-10 text-accent-2 dark:text-bg-light dongle-regular">Proyectos Destacados</h2>
       <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project, i) => (

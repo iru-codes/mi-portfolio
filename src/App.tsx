@@ -14,6 +14,8 @@ import { SocialIcons } from "@/components/SocialLinks";
 import { Hobbies } from "./components/Hobbies";
 import { Techs } from "./components/Techs";
 import { ContactInvite } from "@/components/ContactInvite";
+import { Navigation } from "./components/ui/Navigation";
+import { FloatingNav } from "./components/ui/FloatingNav";
 
 
 export default function App() {
@@ -31,6 +33,7 @@ export default function App() {
     <div className={"bg-background-light dark:bg-deep-violet text-bg-dark dark:text-bg-light"}>
       <header className="flex items-center justify-between p-4 bg-primary dark:bg-background-dark shadow-md">
         <h1 className="text-xl font-semibold text-bg-light">Irupé Alvarez</h1>
+        <Navigation />
         <ThemeToggle />
       </header>
       <main className="p-4">
@@ -51,7 +54,7 @@ export default function App() {
           <ContactInvite />
           <ContactForm submitted={submitted} setSubmitted={setSubmitted} />
         </div>
-
+        <FloatingNav />
       </main>
       <SocialIcons />
       <p className="flex justify-center content-center items-end gap-10 h-1 p-5 pt-2 font-bold bg-not-blue dark:bg-background-dark text-bg-light dark:text-bg-primary comic-neue-regular">Iru Codes - 2025</p>

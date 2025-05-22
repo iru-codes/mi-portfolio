@@ -8,7 +8,7 @@ export function HeroSection() {
       transition={{ duration: 0.6 }}
       className="text-center py-20"
     >
-      <div className="block items-center justify-center gap-6">
+      <div id="inicio" className="block items-center justify-center gap-6">
         <div className="flex flex-row-reverse justify-center items-center gap-6">
           <img
             src="/perfil.webp"
