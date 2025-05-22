@@ -3,7 +3,7 @@ import {motion} from "framer-motion";
 export function Techs() {
     return (
         <section className="w-full flex flex-col lg:flex-row justify-center items-center gap-5 px-4 py-10">
-            <div className="w-full max-w-xl mb-5">
+            <div className="w-full max-w-xl md:mb-0 mb-5">
                 <h2 className="text-6xl font-bold text-center text-deep-violet dark:text-bg-light dongle-regular ">Tecnologías</h2>
                 <div className="p-4 flex flex-wrap justify-around gap-4 bg-not-blue dark:bg-background-dark rounded-4xl border-2 border-primary">
                 {[

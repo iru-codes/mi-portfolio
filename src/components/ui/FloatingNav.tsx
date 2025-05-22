@@ -20,10 +20,10 @@ export function FloatingNav() {
         isVisible && (
             <button
                 onClick={scrollToTop}
-                className="fixed bottom-6 right-6 z-50 p-3 rounded-full bg-accent text-background-dark dark:bg-secondary dark:text-white shadow-lg hover:scale-110 transition-transform"
+                className="fixed bottom-6 right-6 z-50 p-3 rounded-full bg-accent-2 text-background-dark dark:bg-accent dark:text-deep-violet shadow-lg hover:scale-110 transition-transform"
                 aria-label="Scroll to top"
             >
-                <ChevronUp size={24} />
+                <ChevronUp size={26} />
             </button>
         )
     );

@@ -23,21 +23,21 @@ export function ContactForm({ submitted, setSubmitted }: ContactFormProps) {
             type="text"
             name="name"
             placeholder="Nombre"
-            className="w-full px-4 py-3 rounded-xl border-3 border-accent-2 dark:border-primary bg-white dark:bg-background-dark text-sm"
+            className="w-full px-4 py-3 rounded-xl border-3 border-accent-2 dark:border-accent bg-white dark:bg-background-dark text-sm"
           />
           <input
             required
             type="email"
             name="email"
             placeholder="Correo electrónico"
-            className="w-full px-4 py-3 rounded-xl border-3 border-accent-2 dark:border-primary bg-white dark:bg-background-dark text-sm"
+            className="w-full px-4 py-3 rounded-xl border-3 border-accent-2 dark:border-accent bg-white dark:bg-background-dark text-sm"
           />
           <textarea
             required
             name="message"
             placeholder="Tu mensaje"
             rows={4}
-            className="w-full px-4 py-3 rounded-xl border-3 border-accent-2 dark:border-primary bg-white dark:bg-background-dark text-sm"
+            className="w-full px-4 py-3 rounded-xl border-3 border-accent-2 dark:border-accent bg-white dark:bg-background-dark text-sm"
           />
           <button
             type="submit"

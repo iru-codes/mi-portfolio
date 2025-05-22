@@ -16,7 +16,7 @@ export function Navigation() {
         <nav className="relative">
             <button
                 onClick={() => setOpen(!open)}
-                className="lg:hidden p-2 rounded-md text-bg-light dark:text-bg-light"
+                className="lg:hidden p-2 rounded-md text-bg-light"
             >
                 {open ? <X size={28} /> : <Menu size={28} />}
             </button>
@@ -32,7 +32,7 @@ export function Navigation() {
                     <li key={link.name}>
                         <a
                             href={link.href}
-                            className="block py-2 px-4 hover:text-primary dark:hover:text-accent transition-colors didact-gothic-regular text-2xl"
+                            className="block py-2 px-4 text-bg-light hover:text-accent-2 dark:hover:text-accent didact-gothic-regular text-2xl"
                             onClick={() => setOpen(false)}
                         >
                             {link.name}
