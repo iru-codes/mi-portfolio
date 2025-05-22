@@ -10,7 +10,7 @@ export function CVSection() {
           <SkillBar label="Aplicaciones Web" value={4} />
           <SkillBar label="Landing Pages" value={6} />
           <SkillBar label="Sitios Web" value={3} />
-          <SkillBar label="Diseño" value={7} />
+          <SkillBar label="Diseño" value={5} />
           <SkillBar label="Inglés" value={7} />
           <SkillBar label="SEO" value={6} />
 

@@ -13,6 +13,8 @@ import type { Project } from "@/types/project";
 import { SocialIcons } from "@/components/SocialLinks";
 import { Hobbies } from "./components/Hobbies";
 import { Techs } from "./components/Techs";
+import { ContactInvite } from "@/components/ContactInvite";
+
 
 export default function App() {
   const [activeProject, setActiveProject] = useState<Project | null>(null);
@@ -45,7 +47,10 @@ export default function App() {
           <Hobbies />
         </div>
         <Techs />
-        <ContactForm submitted={submitted} setSubmitted={setSubmitted} />
+        <div className=" flex flex-col justify-center content-center items-center mt-25">
+          <ContactInvite />
+          <ContactForm submitted={submitted} setSubmitted={setSubmitted} />
+        </div>
 
       </main>
       <SocialIcons />

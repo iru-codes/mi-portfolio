@@ -4,7 +4,7 @@ const skills = [
     { label: "Aplicaciones Web", value: 4 },
     { label: "Landing Pages", value: 6 },
     { label: "Sitios Web", value: 3 },
-    { label: "Diseño", value: 7 },
+    { label: "Diseño", value: 5 },
     { label: "Inglés", value: 7 },
     { label: "SEO", value: 6 },
 ];

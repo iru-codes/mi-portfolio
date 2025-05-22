@@ -25,7 +25,6 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
         <h3 className="text-2xl font-semibold mb-2">{project.title}</h3>
         <p className="text-sm text-zinc-600 dark:text-zinc-300 mb-4">{project.description}</p>
         <p className="text-sm text-zinc-500 dark:text-zinc-400 mb-6">
-          Aquí podés incluir una descripción extendida del proyecto, tecnologías usadas, aprendizajes y retos.
         </p>
         <div className="flex gap-4">
           <a
