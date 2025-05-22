@@ -2,10 +2,10 @@ import {motion} from "framer-motion";
 
 export function Techs() {
     return (
-        <section className="w-full flex flex-row justify-center items-center gap-20">
-            <div>
-                <h2 className="text-6xl font-bold text-center text-deep-violet dark:text-bg-light dongle-regular">Tecnologías</h2>
-                <div className="p-5 flex flex-wrap justify-around gap-4 bg-not-blue dark:bg-background-dark rounded-4xl border-2 border-primary">
+        <section className="w-full flex flex-col lg:flex-row justify-center items-center gap-5 px-4 py-10">
+            <div className="w-full max-w-xl mb-5">
+                <h2 className="text-6xl font-bold text-center text-deep-violet dark:text-bg-light dongle-regular ">Tecnologías</h2>
+                <div className="p-4 flex flex-wrap justify-around gap-4 bg-not-blue dark:bg-background-dark rounded-4xl border-2 border-primary">
                 {[
                     { src: "./tecnologias/javascript.svg", alt: "JavaScript" },
                     { src: "./tecnologias/html5.svg", alt: "HTML5" },
@@ -18,7 +18,7 @@ export function Techs() {
                         key={i}
                         src={tech.src}
                         alt={tech.alt}
-                        className="w-17 h-17"
+                        className="w-12 h-12 md:w-16 md:h-16"
                         whileHover={{ scale: 1.2 }}
                         whileTap={{ scale: 0.9 }}
                         transition={{ type: "spring", stiffness: 300 }}
@@ -43,7 +43,7 @@ export function Techs() {
                         key={i}
                         src={tech.src}
                         alt={tech.alt}
-                        className="w-17 h-17"
+                        className="w-12 h-12 md:w-16 md:h-16"
                         whileHover={{ scale: 1.2 }}
                         whileTap={{ scale: 0.9 }}
                         transition={{ type: "spring", stiffness: 300 }}

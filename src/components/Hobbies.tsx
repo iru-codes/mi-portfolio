@@ -17,8 +17,8 @@ const hobbies = [
 
 export function Hobbies() {
     return (
-        <section className="p-8 w-[40%] justify-center items-center m-4 bg-primary dark:bg-deep-violet border-3 dark:border-accent rounded-2xl">
-        <h2 className="text-5xl text-center comic-neue-bold m-8 text-bg-light dark:text-background-light">
+        <section className="w-full max-w-2xl mx-auto px-4 py-8 bg-primary dark:bg-deep-violet border-4 dark:border-accent rounded-2xl">
+        <h2 className="text-3xl md:text-5xl text-center comic-neue-bold mb-6 text-bg-light dark:text-background-light">
             Otros Intereses
         </h2>
         <div className="flex flex-col gap-6 items-center p-4">
