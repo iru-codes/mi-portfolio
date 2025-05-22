@@ -4,7 +4,7 @@ export const projects: Project[] = [
   {
     title: "Landing Page Modelo",
     description: "Una landing page de prueba que usa el servicio de backend de Firebase para el hosting.",
-    description2: "Esta Web estática de ejemplo está hecha con HTML5/CSS3 y Javascript vanilla y cuenta con diseño responsive usando Flex. Usé el servicio de Hosting de Firebase para alojarla.",
+    description2: "Esta Web estática de ejemplo está hecha con HTML5/CSS3 y Javascript vanilla. Está hecha para ser responsive usando Flex.",
     demoUrl: "https://landing-page-modelo.web.app/",
     codeUrl: "https://github.com/iru-codes/landing-modelo",
     image: "/proyectos/tu-landing-page.webp"

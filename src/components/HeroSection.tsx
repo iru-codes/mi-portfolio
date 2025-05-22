@@ -16,10 +16,10 @@ export function HeroSection() {
             className="w-64 h-64 rounded-full object-cover border-4 border-primary dark:border-accent"
           />
           <div className="flex flex-col items-center gap-4">
-            <h1 className="text-6xl md:text-7xl font-bold dongle-regular">Hola, soy Irupé Alvarez</h1>
-            <p className="text-xl md:text-2xl text-zinc-600 dark:text-zinc-300 comic-neue-light">Frontend Web Developer</p>
-            <p className="max-w-xl text-base md:text-lg text-zinc-500 dark:text-zinc-400 didact-gothic-regular">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <h1 className="text-6xl md:text-8xl font-bold dongle-regular">Hola, soy Irupé Alvarez</h1>
+            <p className="text-xl md:text-5xl text-deep-violet dark:text-bg-light comic-neue-light -mt-6">Frontend Web Developer</p>
+            <p className="max-w-xl text-base md:text-xl text-not-blue dark:text-bg-light didact-gothic-regular">
+            Me gusta crear experiencias digitales divertidas y funcionales. Siempre estoy aprendiendo y buscando nuevos desafíos.
             </p>
           </div>
         </div>
