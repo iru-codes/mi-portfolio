@@ -32,7 +32,7 @@ export default function App() {
   return (
     <div className={"bg-background-light dark:bg-deep-violet text-bg-dark dark:text-bg-light"}>
       <header className="flex items-center justify-between p-4 bg-primary dark:bg-background-dark shadow-md">
-        <h1 className="text-xl font-semibold text-bg-light">Irupé Alvarez</h1>
+        <h1 className="text-xl font-semibold text-bg-light">Iru Codes</h1>
         <Navigation />
         <ThemeToggle />
       </header>
