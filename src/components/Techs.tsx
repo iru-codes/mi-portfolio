@@ -2,10 +2,10 @@ import {motion} from "framer-motion";
 
 export function Techs() {
     return (
-        <section className="w-full flex flex-col lg:flex-row justify-center items-center gap-5 px-4 py-10">
+        <section className="w-full flex flex-col lg:flex-row justify-center items-center gap-5 px-4 py-5">
             <div className="w-full max-w-xl md:mb-0 mb-5">
                 <h2 className="text-6xl font-bold text-center text-deep-violet dark:text-bg-light dongle-regular ">Tecnologías</h2>
-                <div className="p-4 flex flex-wrap justify-around gap-4 bg-not-blue dark:bg-background-dark rounded-4xl border-2 border-primary">
+                <div className="p-4 flex flex-wrap justify-around gap-2 md:gap-4 bg-not-blue dark:bg-background-dark rounded-4xl border-2 border-primary">
                 {[
                     { src: "./tecnologias/javascript.svg", alt: "JavaScript" },
                     { src: "./tecnologias/html5.svg", alt: "HTML5" },
@@ -18,7 +18,7 @@ export function Techs() {
                         key={i}
                         src={tech.src}
                         alt={tech.alt}
-                        className="w-12 h-12 md:w-16 md:h-16"
+                        className="w-9 h-9 md:w-16 md:h-16"
                         whileHover={{ scale: 1.2 }}
                         whileTap={{ scale: 0.9 }}
                         transition={{ type: "spring", stiffness: 300 }}
@@ -29,7 +29,7 @@ export function Techs() {
 
             <div>
                 <h2 className=" text-6xl font-bold text-center text-deep-violet dark:text-bg-light dongle-regular">Herramientas</h2>
-                <div className="p-4 flex flex-wrap justify-around gap-4 bg-not-blue dark:bg-background-dark rounded-4xl border-2 border-primary dark:border-primary">
+                <div className="p-4 flex flex-wrap justify-around gap-2 md:gap-4 bg-not-blue dark:bg-background-dark rounded-4xl border-2 border-primary dark:border-primary">
                 {[
                     { src: "./herramientas/Trello.svg", alt: "Trello" },
                     { src: "./herramientas/git.svg", alt: "Git" },
@@ -43,7 +43,7 @@ export function Techs() {
                         key={i}
                         src={tech.src}
                         alt={tech.alt}
-                        className="w-12 h-12 md:w-16 md:h-16"
+                        className="w-9 h-9 md:w-16 md:h-16"
                         whileHover={{ scale: 1.2 }}
                         whileTap={{ scale: 0.9 }}
                         transition={{ type: "spring", stiffness: 300 }}

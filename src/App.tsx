@@ -50,7 +50,7 @@ export default function App() {
           <Hobbies />
         </div>
         <Techs />
-        <div className=" flex flex-col justify-center content-center items-center mt-25">
+        <div className=" flex flex-col justify-center content-center items-center mt-15">
           <ContactInvite />
           <ContactForm submitted={submitted} setSubmitted={setSubmitted} />
         </div>

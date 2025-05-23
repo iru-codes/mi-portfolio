@@ -9,7 +9,7 @@ export function HeroSection() {
       className="text-center py-20"
     >
       <div id="inicio" className="block items-center justify-center gap-6">
-        <div className="flex flex-row-reverse justify-center items-center gap-6">
+        <div className="flex flex-col md:flex-row-reverse justify-center items-center gap-6">
           <img
             src="/perfil.webp"
             alt="Irupé Alvarez"
