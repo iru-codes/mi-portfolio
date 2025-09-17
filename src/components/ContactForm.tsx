@@ -53,22 +53,33 @@ export function ContactForm({ submitted, setSubmitted }: ContactFormProps) {
               Don’t fill this out: <input name="bot-field" />
             </label>
           </p>
+          
           <input required 
           type="text" 
           name="name" 
-          placeholder="Nombre" />
+          placeholder="Nombre" 
+          className="w-full px-4 py-3 rounded-xl border-3 border-accent-2 dark:border-accent bg-white dark:bg-background-dark text-sm"
+          />
 
           <input required 
           type="email" 
           name="email" 
-          placeholder="Correo electrónico" />
+          placeholder="Correo electrónico" 
+          className="w-full px-4 py-3 rounded-xl border-3 border-accent-2 dark:border-accent bg-white dark:bg-background-dark text-sm"
+          />
 
           <textarea required 
           name="message" 
           placeholder="Tu mensaje" 
-          rows={4} />
+          rows={4} 
+          className="w-full px-4 py-3 rounded-xl border-3 border-accent-2 dark:border-accent bg-white dark:bg-background-dark text-sm"
+          />
 
-          <button type="submit">Enviar mensaje</button>
+          <button 
+            type="submit" 
+            className="px-6 py-3 rounded-2xl bg-primary text-xl md:text-2xl text-white hover:bg-deep-violet hover:text-accent-2 dark:hover:bg-background-light dark:hover:text-deep-violet comic-neue-bold"
+            >Enviar mensaje            
+          </button>
         </form>
       )}
     </section>
